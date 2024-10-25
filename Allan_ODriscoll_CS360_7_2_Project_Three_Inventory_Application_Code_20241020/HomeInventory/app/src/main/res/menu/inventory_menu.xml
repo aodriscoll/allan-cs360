@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/test_sms_button"
+        android:title="Test SMS"
+        android:icon="@drawable/baseline_sms_24"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item android:id="@+id/add_inventory_category_button"
+        android:title="Add Category"
+        android:icon="@drawable/baseline_add_24"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item android:id="@+id/logout_button"
+        android:title="Logout"
+        android:icon="@drawable/baseline_logout_24"
+        app:showAsAction="ifRoom">
+    </item>
+
+</menu>

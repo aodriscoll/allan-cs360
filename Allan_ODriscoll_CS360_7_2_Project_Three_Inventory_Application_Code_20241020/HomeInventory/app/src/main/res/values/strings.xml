@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Home Inventory</string>
+    <string name="delete_item">Delete Inventory Item</string>
+    <string name="title">Title</string>
+    <string name="home_inventory">Home Inventory</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">────────── or ──────────</string>
+    <string name="create_user">Create User</string>
+    <string name="pantry">Pantry</string>
+    <string name="last_name">Last Name</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="new_category">New Category</string>
+    <string name="create_user_instruction_text">Enter the information below and then click the \'Sign up\' button to create a new user.</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="create_and_share">Create and Share</string>
+    <string name="add">Add</string>
+    <string name="undo">Undo</string>
+    <string name="ok">OK</string>
+    <string name="products_name">Product\'s Name</string>
+    <string name="add_item_instruction_text">Enter the product\'s name and set the initial count using the plus and minus buttons.</string>
+    <string name="sms_permission_rationale_title">SMS Permissions Needed</string>
+    <string name="sms_permission_rationale_message">This application needs permissions to send SMS messages when an item\'s inventory count drops to zero.</string>
+    <string name="name_cannot_be_empty">The name field cannot be empty.</string>
+    <string name="username_cannot_be_empty">The username field cannot be empty.</string>
+    <string name="username_already_exists">This username is already taken.</string>
+    <string name="password_cannot_be_empty">The password field cannot be empty.</string>
+    <string name="username_or_password_incorrect">Username or Password is incorrect.</string>
+    <string name="product_name_cannot_be_empty">Product name cannot be empty.</string>
+    <string name="inventory_item_deleted">Inventory item has been deleted.</string>
+    <string name="first_name">First Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_instruction_text">Optionally enter a phone number to received SMS messages for inventory alerts.</string>
+    <string name="category_already_exists">Category already exists.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFD50000</color>
+    <color name="green">#FF1B5E20</color>
+    <color name="dark_purple">#FF7E57C2</color>
+    <color name="light_purple">#FFD1C4E9</color>
+
+<!--    https://m2.material.io/design/color/the-color-system.html -->
+    <array name="category_colors">
+        <item>#EF9A9A</item>
+        <item>#CE93D8</item>
+        <item>#90CAF9</item>
+        <item>#80CBC4</item>
+        <item>#E6EE9C</item>
+        <item>#FFCC80</item>
+        <item>#BCAAA4</item>
+        <item>#EEEEEE</item>
+        <item>#B0BEC5</item>
+    </array>
+
+</resources>
