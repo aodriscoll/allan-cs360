@@ -32,7 +32,35 @@
 
 ### Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 
+In project three, I chose to work on a mobile inventory application. The project had several requirements, including the following:
+
+- A database that could store information about users and inventory items.
+- A login screen and a way to create new users.
+- A screen that displays the inventory items in a grid.
+- A mechanism to add and remove items from the inventory.
+- A mechanism to adjust the inventory count.
+- A mechanism to alert users when the inventory level drops to zero.
+
+I decided to target home users who would use the application to maintain the inventory levels in their pantry and for other household items. The user base would include those who cooked meals, shopped for groceries, engaged in hobbies, and who consumed items from the inventory. I wanted the app to be straightforward and easy to use. One way that I accomplished this is by limiting the need for keyboard input. Once the application has been configured, the inventory is managed by scrolling through the list of items and clicking on buttons.
+
+In addition to the requirements listed above, I also added the following:
+
+- Support for multiple users. Each user has their own inventory items.
+- Support for inventory categories. Categories can either be private or shared.
+
 ### What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+
+The original design included four screens.
+
+- A login screen where users could type their username and password to login or click a button to create a new user.
+- A screen that allows users create new accounts.
+- An inventory screen allowing users to manage the inventory. Users should be able to add or delete inventory items and adjust the inventory count.
+- A screen to add new inventory items.
+
+This design looked like the following:
+
+![Inventory Application Screen Design](./InventoryApplicationScreenDesign.png)
+
 
 ### How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
 
