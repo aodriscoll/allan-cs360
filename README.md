@@ -55,9 +55,9 @@ The original design included four screens that would support the user's needs.
 - A login screen where users could enter their credentials and log in to the application. A button was also provided on the login screen to support the creation of new users.
 - A screen where users could fill out a form to create new user accounts.
 - An inventory screen allowing users to manage items in the inventory.
-    - Items can added by clicking on a category placeholder card. This takes the user to the "Add Inventory Item" screen
-    - Items can be removed by long-clicking on an item or category.
-    - The inventory count can be adjusted by clicking on the plus or minus buttons on each card.
+    - Items can added by clicking on a category placeholder card. This takes the user to the "Add Inventory Item" screen
+    - Items can be removed by long-clicking on an item or category.
+    - The inventory count can be adjusted by clicking on the plus or minus buttons on each card.
 - A screen to add new inventory items.
 - A database where all user and inventory information would be stored.
 
@@ -71,8 +71,16 @@ The final deliverable was close to this design, and I believe that it successful
 
 ### How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
 
+One strategy was to build the code in phases. The first phase, done in Project Two, was all about building the UI. I wrote enough code to get navigation working between screens and also to mock up the data on the inventory screen. The second phase, done in Project Three, is where most of the business logic and program functionality was built. As I worked on the logic for each screen, I built the related model objects, database interfaces, and controllers. This allowed me to develop and test each screen independently. The last phase, also done in Project Three, included end-to-end testing and fine-tuning the overall functionality. I believe that this strategy would work for most future projects. It simplifies the work when you break things down into phases like this.
+
 ### How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
+
+I tested the code in several different ways. First, as a developer, I walked through the code with the debugger, followed the program logic, and examined variables to ensure that the code functioned correctly. I also made use of log messages to trace what was happening as I executed different test cases. Second, as a user, I tested the navigation flows, the input field, and the buttons to ensure they produced the correct behavior. I also asked several family members to do the same so that I could get their perspective. This process revealed a number of programming errors. For example, in one case, I forgot to include a variable in the activities response. As a result, the data wasn't updated in the database. By testing in this manner, I was able to find and correct the bug.
 
 ### Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
 
+One challenge that I had was related to handling events for the cards in my inventory recycler view. The code has several nested classes, and I wasn't sure where event callbacks needed to be placed. I searched the documentation but wasn't able to find the answers that I was looking for. I ended up solving the problem through a series of experiments using debug logging to see where the events were being invoked.
+
 ### In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+
+The most complicated screen that I built was the main inventory screen. This included a recycler view and a dynamic number of cards. The data needed backed by something that was equally dynamic. I used a list view model object along with the LiveData APIs to accomplish this. There were a lot of new concepts that I had to understand to build this screen. The Room database was also very helpful. In the end, I was very pleased with the result.
