@@ -32,7 +32,7 @@
 
 ### Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 
-In project three, I chose to work on a mobile inventory application. The project had several requirements, including the following:
+In project three, I chose to work on an inventory management application for Android. The project had several requirements, including the following:
 
 - A database that could store information about users and inventory items.
 - A login screen and a way to create new users.
@@ -61,7 +61,7 @@ The original design included four screens that would support the user's needs.
 - A screen to add new inventory items.
 - A database where all user and inventory information would be stored.
 
-This design looked like the following:
+This UI design looked like the following:
 
 ![Inventory Application Screen Design](./InventoryApplicationScreenDesign.png)
 
@@ -83,4 +83,4 @@ One challenge that I had was related to handling events for the cards in my inve
 
 ### In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
 
-The most complicated screen that I built was the main inventory screen. This included a recycler view and a dynamic number of cards. The data needed backed by something that was equally dynamic. I used a list view model object along with the LiveData APIs to accomplish this. There were a lot of new concepts that I had to understand to build this screen. The Room database was also very helpful. In the end, I was very pleased with the result.
+The most complicated screen that I built was the main inventory screen. This included a recycler view and a dynamic number of cards. The data needed to be backed by something that was equally dynamic. I used a list view model object along with the LiveData APIs to accomplish this. There were a lot of new concepts that I had to understand to build this screen. The Room database was also very helpful. In the end, I was very pleased with the result.
