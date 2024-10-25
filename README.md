@@ -50,18 +50,22 @@ In addition to the requirements listed above, I also added the following:
 
 ### What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
 
-The original design included four screens.
+The original design included four screens that would support the user's needs.
 
-- A login screen where users could enter their credentials and log in to the application. A button was also provided to support the creation of new users.
-- A screen that where users could fill out a form to create new user accounts.
-- An inventory screen allowing users to manage the inventory. Users should be able to add or delete inventory items, create new categories, and adjust the inventory count.
+- A login screen where users could enter their credentials and log in to the application. A button was also provided on the login screen to support the creation of new users.
+- A screen where users could fill out a form to create new user accounts.
+- An inventory screen allowing users to manage items in the inventory.
+    - Items can added by clicking on a category placeholder card. This takes the user to the "Add Inventory Item" screen
+    - Items can be removed by long-clicking on an item or category.
+    - The inventory count can be adjusted by clicking on the plus or minus buttons on each card.
 - A screen to add new inventory items.
+- A database where all user and inventory information would be stored.
 
 This design looked like the following:
 
 ![Inventory Application Screen Design](./InventoryApplicationScreenDesign.png)
 
-The final deliverable was close to this design. Here are a few screenshots.
+The final deliverable was close to this design, and I believe that it successfully met the project goals. The UI design kept the users in mind by keeping things simple and ensuring that the navigation between screens was intuitive. As mentioned, I also avoided the need for keyboard input where possible. Here are a few screenshots of the completed application.
 
 ![Inventory Application](./InventoryApplicationFinal.png)
 
