@@ -52,15 +52,18 @@ In addition to the requirements listed above, I also added the following:
 
 The original design included four screens.
 
-- A login screen where users could type their username and password to login or click a button to create a new user.
-- A screen that allows users create new accounts.
-- An inventory screen allowing users to manage the inventory. Users should be able to add or delete inventory items and adjust the inventory count.
+- A login screen where users could enter their credentials and log in to the application. A button was also provided to support the creation of new users.
+- A screen that where users could fill out a form to create new user accounts.
+- An inventory screen allowing users to manage the inventory. Users should be able to add or delete inventory items, create new categories, and adjust the inventory count.
 - A screen to add new inventory items.
 
 This design looked like the following:
 
 ![Inventory Application Screen Design](./InventoryApplicationScreenDesign.png)
 
+The final deliverable was close to this design. Here are a few screenshots.
+
+![Inventory Application](./InventoryApplicationFinal.png)
 
 ### How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
 
